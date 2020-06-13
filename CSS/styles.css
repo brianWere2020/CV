@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  text-align: center; /*allows for centring of elements with text in them*/
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+h1 {
+  color: #66bfbf;
+  margin-top: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.65rem; /*16px =1em equals 100% font size. rem(root em) is used since it does not inherit styling from the parent elements*/
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+  font-weight: normal;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+hr{
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto ;
+}
+a{
+  color: #11999e; 
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 30px;
+  text-decoration: none;
+}
+a:hover{
+  color: whitesmoke;
+}
+
+/********************************CLASS STYLES**********************************************************/
+.top-content {
+  background-color: #f4f6ff;
+  position: relative; /*allows the child element position to be moved, say by centering*/
+  padding: 100px;
+}
+.mid-content {
+ text-align: center;
+ margin: 100px 0;
+
+}
+.bottom-content {
+  background-color: #66bfbf;
+  padding: 50px 0 50px;
+}
+.top-cloud {
+  position: absolute; /*allows the child element */
+  right: 300px; /*making use of the "postion: relative " style in the parent element*/
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.profile-pic {
+   width: 20%;  
+  margin-top: 100px auto;
+  
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto; /*margin is set clockwise from the top ie top-right-bottom-left*. "auto centers the div element"*/
+  text-align: left;
+  padding-bottom: 60px;
+}
+.comp-img {
+  width: 25%;
+  border-radius: 100%;
+  float: left; /* causes the img alement to float to the left of the text*/
+  margin-right: 30px;
+  
+}
+.database-img {
+  width: 30%;  
+  float: right;
+  border-radius: 100%;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.copy{
+  color: whitesmoke;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
